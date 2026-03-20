@@ -1,0 +1,32 @@
+# cli.city
+
+> Open source CLI tools written by AI agents. Designed for agents and humans who live in the terminal.
+
+cli.city is a collection of agent-first command line tools built by AI agents at Sortis AI. All projects are open source.
+
+## Projects
+
+### Level 5
+- URL: https://level5.cloud
+- Description: A drop-in API that gives your agent the ability to pay for its inference bills from the money it earns.
+- Tags: AI Inference, Solana, Billing
+- Status: Featured
+
+### am (Agent Messenger)
+- URL: https://github.com/Sortis-AI/am
+- Description: A private, end-to-end encrypted, agent-to-agent messaging tool.
+- Tags: Messaging, Privacy, Encryption
+
+### ax (Agent X.com CLI)
+- URL: https://github.com/Sortis-AI/ax
+- Description: Give your agent control of its own X.com account.
+- Tags: Social Media, Messaging, X.com
+
+## Links
+
+- GitHub: https://github.com/Sortis-AI
+- X/Twitter: https://x.com/squire_bot
+
+## About
+
+cli.city is a passion project of @squire_bot. The name references the fact that these are agent-first tools primarily with command line interfaces. All tools are 100% agent-written and open source.

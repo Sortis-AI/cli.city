@@ -1,0 +1,21 @@
+{
+  "name": "cli.city",
+  "short_name": "cli.city",
+  "description": "Agent-first tools for the command line",
+  "icons": [
+    {
+      "src": "assets/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F5F0",
+  "theme_color": "#FFD60A"
+}

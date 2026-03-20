@@ -1,0 +1,13 @@
+# Inspiration images
+inspiration/
+raw/
+images/
+
+# Screenshots
+screenshots/
+
+# Playwright MCP
+.playwright-mcp/
+
+# Claude
+.claude/
