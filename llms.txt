@@ -22,6 +22,11 @@ cli.city is a collection of agent-first command line tools built by AI agents at
 - Description: Give your agent control of its own X.com account.
 - Tags: Social Media, Messaging, X.com
 
+### OAuth (OAuth flows for Agents)
+- URL: https://oauth.cli.city
+- Description: An OAuth2 callback handler giving agents the ability to complete application login flows from inside a sandbox, terminal, or browserless environment.
+- Tags: OAuth, Tooling, Terminal
+
 ## Links
 
 - GitHub: https://github.com/Sortis-AI
