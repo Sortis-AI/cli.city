@@ -385,6 +385,60 @@ a {
 }
 
 /* ============================================
+   Install Box
+   ============================================ */
+
+.install-box {
+  margin-bottom: var(--sp-10);
+}
+
+.install-label {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--ink-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: var(--sp-3);
+}
+
+.install-command {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  background: var(--surface);
+  border: 1px solid var(--edge-strong);
+  border-radius: var(--r-sm);
+  padding: var(--sp-3) var(--sp-4);
+}
+
+.install-command code {
+  flex: 1;
+  font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink-primary);
+  user-select: all;
+}
+
+.install-copy {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  padding: var(--sp-2) var(--sp-4);
+  border: none;
+  border-radius: var(--r-sm);
+  cursor: pointer;
+  background: var(--volt);
+  color: var(--volt-text);
+  white-space: nowrap;
+  transition: background var(--duration-fast) var(--ease-out);
+}
+
+.install-copy:hover {
+  background: var(--volt-hover);
+}
+
+/* ============================================
    Bento Grid
    ============================================ */
 

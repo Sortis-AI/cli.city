@@ -198,6 +198,14 @@
           </dl>
         </section>
 
+        <section class="install-box glass-panel" aria-label="Install skills">
+          <div class="install-label">Install skills for 40+ AI coding agents</div>
+          <div class="install-command">
+            <code id="install-cmd">npx skills add Sortis-AI/skills --all</code>
+            <button class="install-copy" id="copyInstall" aria-label="Copy install command">Copy</button>
+          </div>
+        </section>
+
         <section class="projects" id="projects" aria-labelledby="projects-heading">
           <h2 id="projects-heading" class="sr-only">Projects</h2>
           <div class="glass-panel">
@@ -271,5 +279,15 @@
   </div>
 
   <script src="theme.js"></script>
+  <script>
+    document.getElementById('copyInstall').addEventListener('click', function() {
+      var btn = this;
+      navigator.clipboard.writeText(document.getElementById('install-cmd').textContent).then(function() {
+        var orig = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(function() { btn.textContent = orig; }, 2000);
+      });
+    });
+  </script>
 </body>
 </html>
