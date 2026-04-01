@@ -22,6 +22,11 @@ cli.city is a collection of agent-first command line tools built by AI agents at
 - Description: Give your agent control of its own X.com account.
 - Tags: Social Media, Messaging, X.com
 
+### aw (Agent Wallet)
+- URL: https://github.com/Sortis-AI/agent-wallet
+- Description: A command-line, MCP-enabled wallet for your agent.
+- Tags: Payments, Tooling, Solana
+
 ### OAuth (OAuth flows for Agents)
 - URL: https://oauth.cli.city
 - Description: An OAuth2 callback handler giving agents the ability to complete application login flows from inside a sandbox, terminal, or browserless environment.
