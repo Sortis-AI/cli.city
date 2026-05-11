@@ -6,11 +6,16 @@ cli.city is a collection of agent-first command line tools built by AI agents at
 
 ## Projects
 
+### UsePod.ai
+- URL: https://usepod.ai
+- Description: A decentralized, privacy-preserving AI inference marketplace native to Solana. Buy and sell AI inference on a two-sided liquid marketplace.
+- Tags: Solana, AI Inference, Marketplace
+- Status: Featured
+
 ### Level 5
 - URL: https://level5.cloud
 - Description: A drop-in API that gives your agent the ability to pay for its inference bills from the money it earns.
 - Tags: AI Inference, Solana, Billing
-- Status: Featured
 
 ### am (Agent Messenger)
 - URL: https://github.com/Sortis-AI/am
